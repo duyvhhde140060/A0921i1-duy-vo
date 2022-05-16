@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    margin-left: -162px;
+    float: left;
+    width: 20%;
+    height: 600px;
+    background-color: gainsboro;
+    padding: 0;
+}
+.right{
+    margin-right: -162px;
+    right: 1000;
+    width: 20%;
+    height: 600px;
+    background-color: gainsboro;
+    
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+article{
+    padding: 10px;
+}
+@media only screen and (max-width: 480px){
+    .left{
+        display: block;
+        width: 100%;
+    }
+    .right{
+        display: block;
+        width: 100%;
+    }
+    .center{
+        display: block;
+        width: 100%;
+    }
+  }
